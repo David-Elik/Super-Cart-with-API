@@ -41,27 +41,27 @@ npm or yarn package manager
 1. Clone the Repository
 Clone the repository and navigate to the project directory:
 
-<pre> git clone <repository-url>
-cd Super-Cart-with-API </pre>
+<pre>git clone <repository-url>
+cd Super-Cart-with-API</pre>
 
 2. Install Frontend Dependencies
 Go to the frontend directory and install the required dependencies:
 
-cd frontend
-npm install
+<pre>cd frontend
+npm install</pre>
 
 3. Install Backend Dependencies
 Go to the backend directory and install the required dependencies:
 
-cd backend
-npm install
+<pre>cd backend
+npm install</pre>
 
 4. Set Up Environment Variables
 Create a .env file in the backend directory and add the following variables:
 
-PORT=5000
+<pre>PORT=5000
 MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+JWT_SECRET=your_jwt_secret</pre>
 
 Make sure to replace your_mongodb_connection_string and your_jwt_secret with your actual MongoDB URI and JWT secret.
 
@@ -70,23 +70,23 @@ Make sure to replace your_mongodb_connection_string and your_jwt_secret with you
 1. Start the Backend Server
 In the backend directory, start the backend server:
 
-cd backend
-npm run dev
+<pre>cd backend
+npm run dev</pre>
 
 This will start the server on http://localhost:5000.
 
 2. Start the Frontend Development Server
 In the frontend directory, start the frontend development server:
 
-cd frontend
-npm run dev
+<pre>cd frontend
+npm run dev</pre>
 
 This will open the application in your browser at http://localhost:5173.
 
 
 📁 Project Structure
 The project is organized into two main directories: frontend and backend.
-
+<pre>
 Super-Cart-with-API/
 ├── frontend/             # React frontend application
 │   ├── src/
@@ -105,7 +105,7 @@ Super-Cart-with-API/
 │   └── server.js        # Entry point
 │
 └── README.md
-
+</pre>
 
 🔒 Environment Variables
 Backend (.env)
@@ -137,11 +137,11 @@ npm start: Start the backend production server
 Fork the repository
 
 
-Create your feature branch: git checkout -b feature/AmazingFeature
+Create your feature branch: <pre>git checkout -b feature/AmazingFeature</pre>
 
-Commit your changes: git commit -m 'Add some AmazingFeature'
+Commit your changes: <pre>git commit -m 'Add some AmazingFeature'</pre>
 
-Push to your branch: git push origin feature/AmazingFeature
+Push to your branch: <pre>git push origin feature/AmazingFeature</pre>
 
 Open a Pull Request
 
