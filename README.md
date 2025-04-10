@@ -41,8 +41,8 @@ npm or yarn package manager
 1. Clone the Repository
 Clone the repository and navigate to the project directory:
 
-git clone <repository-url>
-cd Super-Cart-with-API
+<pre> git clone <repository-url>
+cd Super-Cart-with-API </pre>
 
 2. Install Frontend Dependencies
 Go to the frontend directory and install the required dependencies:
